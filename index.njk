@@ -1,0 +1,41 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Home
+---
+
+<p>👋Hi, I'm Matt, user experience designer working on content collaboration products at Axway. See more about me <a href="/about">here</a>.</p>
+
+
+<div class="grid">
+  
+  <a href="/securemail"><div class="module">
+  <p>Secure mail app</p>
+  <br><p>
+  <img src="/img/files2.png"></p>
+  </div></a>
+  
+  <div class="module">2</div>
+  <div class="module">3</div>
+  <div class="module">4</div>
+  <div class="module">5</div>
+  <div class="module">6</div>
+  <div class="module">7</div>
+  <div class="module">8</div>
+  <div class="module">9</div>
+  <div class="module">10</div>
+  <div class="module">11</div>
+  <div class="module">12</div>
+  <div class="module">13</div>
+  <div class="module">14</div>
+  <div class="module">15</div>
+</div>
+
+
+<h1>Latest 3 Posts</h1>
+
+{% set postslist = collections.posts | head(-3) %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

@@ -1,0 +1,17 @@
+{
+  "title": "Matt O'Leary",
+  "subtitle": "UX Designer",
+  "url": "https://olearystudios.com/",
+  "description": "Matt's site",
+  "feed": {
+    "subtitle": "Matt's site",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://olearystudios.com/feed/feed.xml",
+    "id": "https://olearystudios.com/"
+  },
+  "author": {
+    "name": "Matt O'Leary",
+    "email": "mattosurf@gmail.com"
+  }
+}
