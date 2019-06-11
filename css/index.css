@@ -123,10 +123,12 @@ pre {
 
 /* Header */
 .home {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   /* float: left; */
-  margin: 1rem 0; /* 16px /16 */
+  /* margin: 1rem 0; 16px /16 */
   font-size: 1em; /* 16px /16 */
+  text-decoration: none;
+
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -280,4 +282,22 @@ a[href].direct-link:focus:visited,
 
 h1, h2, h3 {
   font-weight: 600;
+}
+
+/* Tablet and Desktop viewpoints */
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .logo {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
 }
