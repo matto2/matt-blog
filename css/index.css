@@ -20,6 +20,7 @@
   --blue: #082840;
   --white: #fff;
   --turquoise: #05BECE;
+  --light-black: #333333;
 }
 
 * {
@@ -61,7 +62,8 @@ p,
 }
 
 a[href] {
-  color: var(--blue);
+  /* color: var(--blue); */
+  color: var(--light-black);
 }
 
 a[href]:visited {
@@ -76,7 +78,7 @@ main {
 }
 
 main :first-child {
-  margin-top: 0;
+  /* margin-top: 0; */
 }
 
 .head-wrapper {
@@ -182,6 +184,7 @@ pre {
   font-size: 1.2em;
   /* 16px /16 */
   text-decoration: none;
+  /* color: var(--light-black); */
 
 }
 
@@ -268,6 +271,10 @@ pre {
   font-weight: 700;
 }
 
+.tmpl-home p {
+  color: var(--light-black);
+}
+
 
 /* Tags */
 .tag {
@@ -341,14 +348,14 @@ a[href].direct-link:focus:visited,
   /* Supports Grid */
   display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); */
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-auto-rows: minmax(150px, auto);
-  grid-gap: 3em;
+  grid-gap: 4em;
 }
 
 .module {
   /* Demo-Specific Styles */
-  background: orange;
+  /* background: orange; */
   display: grid;
   align-items: center;
   justify-content: center;
@@ -358,6 +365,10 @@ a[href].direct-link:focus:visited,
   margin-left: 5px;
   margin-right: 5px;
   flex: 1 1 200px;
+}
+
+.module {
+  text-decoration: none;
 }
 
 /* If Grid is supported, remove the margin we set for the fallback */
@@ -375,6 +386,10 @@ h3 {
 
 /* Tablet and Desktop viewpoints */
 @media (min-width: 768px) {
+  .grid {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
   .nav {
     display: flex;
     justify-content: flex-start;
@@ -391,9 +406,4 @@ h3 {
   }
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
