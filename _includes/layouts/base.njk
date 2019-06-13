@@ -14,13 +14,29 @@
 
 <body>
 
+<style>
+.head-wrapper {
+  width: 100%;
+  background-color: orange;
+  margin-top: -16px;
+  height: 60px;
+  line-height: 3.5;
+}
 
+header {
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>
+
+
+<section class="head-wrapper">
   <header>
     <ul class="nav">
       <li class="logo">
         <a class="home" href="{{ '/' | url }}"><strong>{{ metadata.title }}</strong>
-          <br>
-          User Experience Designer
+          <!-- <br> -->
+          <!-- User Experience Designer -->
         </a>
       </li>
 
@@ -32,6 +48,7 @@
       {%- endfor -%}
     </ul>
   </header>
+</section>
 
 
   
