@@ -1,7 +1,7 @@
 # Accellion kiteworks — File Sharing Web app Design
 ### Role: Overall flow, UI design, Research, Usability studies
 
-![accellion file sharing app](/img/files2.png)
+![accellion file sharing app](/img/files2.jpg)
 
 ## Background
 
