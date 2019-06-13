@@ -35,6 +35,13 @@ body {
   font-family: sans-serif;
   color: var(--darkgray);
   background-color: var(--lightgray);
+  
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -60px;
 }
 
 p:last-child {
@@ -47,6 +54,10 @@ p:last-child {
   display: block;
   width: 280px;
 
+}
+
+.tmpl-post {
+  background-color: var(--white);
 }
 
 .tmpl-post li,
@@ -77,11 +88,30 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+}
+
+footer, .push {
+  height: 60px;
+}
+
+footer p {
+  color: var(--light-black);
+}
+.footer-wrapper {
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 main :first-child {
   /* margin-top: 0; */
 }
 
-.head-wrapper {
+.head-wrapper{
   width: 100%;
   background-color: var(--white);
   margin-top: -16px;
@@ -369,6 +399,10 @@ a[href].direct-link:focus:visited,
 
 .module {
   text-decoration: none;
+}
+
+.social-media-icon {
+  margin-right: 1em;
 }
 
 /* If Grid is supported, remove the margin we set for the fallback */
