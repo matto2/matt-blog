@@ -14,22 +14,6 @@
 
 <body>
 
-<style>
-.head-wrapper {
-  width: 100%;
-  background-color: orange;
-  margin-top: -16px;
-  height: 60px;
-  line-height: 3.5;
-}
-
-header {
-  max-width: 800px;
-  margin: 0 auto;
-}
-</style>
-
-
 <section class="head-wrapper">
   <header>
     <ul class="nav">
@@ -42,7 +26,8 @@ header {
 
       <br>
 
-      {%- for nav in collections.nav | reverse -%}
+
+      {%- for nav in collections.nav -%}
       <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a
           href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
       {%- endfor -%}
@@ -50,7 +35,7 @@ header {
   </header>
 </section>
 
-
+<br>
   
   <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
 
