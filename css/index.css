@@ -85,12 +85,16 @@ main {
   padding: 1rem;
   max-width: 800px;
   margin: 0 auto;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 footer {
+  font-family: 'Source Sans Pro', sans-serif;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 1rem;
   border-top: 1px solid var(--gray);
   border-bottom: 1px solid var(--gray);
 }
@@ -124,6 +128,7 @@ header {
   /* border-bottom: 1px dashed var(--lightgray); */
   max-width: 800px;
   margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 header:after {
@@ -205,18 +210,17 @@ pre {
 }
 
 /* Header */
-.home {
+.logo {
   /* padding: 0 1rem; */
   /* float: left; */
   /* margin: 1rem 0; 16px /16 */
-  font-size: 1.2em;
+  font-size: 1.1em;
   /* 16px /16 */
   text-decoration: none;
   /* color: var(--light-black); */
-
 }
 
-.home :link:not(:hover) {
+.logo :link:not(:hover) {
   text-decoration: none;
 }
 
