@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+
 
 /* html {
   font-family: 'Inter', sans-serif;
@@ -75,15 +75,17 @@ a[href] {
   color: var(--light-black);
 }
 
+/*
 a[href]:visited {
   color: var(--navy);
 }
+*/
 
 main {
   padding: 1rem;
   max-width: 800px;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
 }
 
 footer {
@@ -412,6 +414,7 @@ h1,
 h2,
 h3 {
   font-weight: 600;
+
 }
 
 /* Tablet and Desktop viewpoints */
