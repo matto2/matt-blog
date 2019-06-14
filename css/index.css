@@ -420,10 +420,13 @@ h3 {
     display: grid;
   grid-template-columns: 1fr 1fr;
   }
+  
+  
   .nav {
     display: flex;
     justify-content: flex-start;
   }
+  
 
   .logo {
     display: flex;
