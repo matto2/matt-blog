@@ -7,8 +7,7 @@ navtitle: About
 templateClass: tmpl-post
 ---
 
-
-<img class="about-me"  src="/img/me__IMG_4888_crop.jpg">
+<img class="about-me"  src="/img/me-in-circle_IMG_4888.png">
 
 I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). Check out my resume [here](/img/OLeary_resume_2019.pdf).
 
