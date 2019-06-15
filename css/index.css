@@ -15,7 +15,7 @@
   --darkred: #7F0036;
   --lightgray: #eeeeee;
   --gray: #C0C0C0;
-  --darkgray: #444444;
+  --darkgray: #555555;
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
@@ -229,6 +229,10 @@ pre {
   text-decoration: none;
 }
 
+.logo a {
+  color: var(--darkgray);
+}
+
 .subtitle {
   font-weight: 400;
 }
@@ -255,6 +259,7 @@ pre {
 
 .nav-item a {
   text-decoration: none;
+  color: var(--darkgray);
 }
 
 .nav-item a[href]:not(:hover) {
@@ -267,7 +272,7 @@ pre {
 }
 
 .nav-item-active a {
-  color: var(--turquoise);
+  color: var(--brightblue);
 }
 
 /* Posts list */
