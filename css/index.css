@@ -104,7 +104,8 @@ footer, .push {
 }
 
 footer p {
-  color: var(--light-black);
+  color: var(--darkgray);
+  font-size: small;
 }
 .footer-wrapper {
   width: 100%;
