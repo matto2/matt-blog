@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Collaboration and file sharing web app
+title: File sharing web app
 tags:
   - work
 
