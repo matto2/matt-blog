@@ -33,15 +33,13 @@
         </a>
       </li>
 
-<!--
-      <br>
--->
+    <br>
 
-      {%- for nav in collections.nav -%}
-      <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a
-          href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
-      {%- endfor -%}
-    </ul>
+        {%- for nav in collections.nav -%}
+        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a
+            href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+        {%- endfor -%}
+      </ul>
   </header>
 </article>
 

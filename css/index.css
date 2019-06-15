@@ -87,7 +87,6 @@ main {
   margin: 0 auto;
   /* font-family: sans-serif; */
   font-family: 'Roboto', sans-serif;
-  
 }
 
 footer {
@@ -117,10 +116,10 @@ main :first-child {
 .head-wrapper{
   width: 100%;
   background-color: var(--white);
-  margin-top: -16px;
-  height: 65px;
-  line-height: 3.5;
+  /* margin-top: -16px; */
+  /* line-height: 3.5; */
   box-shadow: 0px -5px 12px 0px #666666;
+  height: 65px;
 }
 
 
@@ -218,6 +217,8 @@ pre {
   /* 16px /16 */
   text-decoration: none;
   /* color: var(--light-black); */
+  display: flex;
+  flex-grow: 1;
 }
 
 .logo :link:not(:hover) {
@@ -230,15 +231,22 @@ pre {
 
 /* Nav */
 .nav {
-  padding: 0;
+  padding: 22px 0;
   list-style: none;
   /* float: right; */
-  margin-left: 1em;
+  /* margin-left: 1em; */
+  margin: 0 1em;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .nav-item {
   display: inline-block;
-  margin-right: 1em;
+  /* margin-right: 1em; */
+}
+
+.nav-item:last-child {
+  margin-left: 1em;
 }
 
 .nav-item a {
@@ -421,6 +429,7 @@ h3 {
 
 }
 
+
 /* Tablet and Desktop viewpoints */
 @media (min-width: 768px) {
   .grid {
@@ -428,8 +437,7 @@ h3 {
   grid-template-columns: 1fr 1fr;
   }
   
-  
-  .nav {
+  /* .nav {
     display: flex;
     justify-content: flex-start;
   }
@@ -438,7 +446,7 @@ h3 {
   .logo {
     display: flex;
     flex-grow: 1;
-  }
+  } */
 
   .nav-item {
     display: flex;
