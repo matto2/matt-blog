@@ -8,6 +8,8 @@
   <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <script src="https://kit.fontawesome.com/5d37bf0850.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
   <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
@@ -25,21 +27,19 @@
   <header>
     <ul class="nav">
       <li class="logo">
-        <a class="home" href="{{ '/' | url }}">{{ metadata.title }}
+        <a class="logo" href="{{ '/' | url }}">{{ metadata.title }}
           <!-- <br> -->
           <!-- User Experience Designer -->
         </a>
       </li>
 
-<!--
-      <br>
--->
+    <br>
 
-      {%- for nav in collections.nav -%}
-      <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a
-          href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
-      {%- endfor -%}
-    </ul>
+        {%- for nav in collections.nav -%}
+        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a
+            href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+        {%- endfor -%}
+      </ul>
   </header>
 </article>
 
