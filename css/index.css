@@ -15,12 +15,13 @@
   --darkred: #7F0036;
   --lightgray: #eeeeee;
   --gray: #C0C0C0;
-  --darkgray: #333;
+  --darkgray: #444444;
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
   --turquoise: #05BECE;
-  --light-black: #333333;
+  --brightblue :dodgerblue;
+  --light-black: #444444;
 }
 
 * {
@@ -72,7 +73,7 @@ p,
 
 a[href] {
   /* color: var(--blue); */
-  color: var(--light-black);
+  color: var(--brightblue);
 }
 
 /*
@@ -122,6 +123,9 @@ main :first-child {
   height: 65px;
 }
 
+.head-wrapper a:link {
+  color: var(--darkgray)
+}
 
 header {
   /* border-bottom: 1px dashed var(--lightgray); */
