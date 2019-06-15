@@ -33,7 +33,7 @@ body {
   /* max-width: 800px; */
   padding: 0;
   margin: 0 auto;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: var(--darkgray);
   background-color: var(--lightgray);
   
@@ -435,8 +435,9 @@ a[href].direct-link:focus:visited,
 h1,
 h2,
 h3 {
-  font-weight: 600;
-
+  font-weight: 700;
+  margin: 1.5rem 0 0 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -473,3 +474,11 @@ blockquote {
   font-style: italic;
 }
 
+p {
+  margin-top: .5rem;
+  font-size: .95rem;
+
+}
+h3 {
+  font-size: 1rem;
+}
