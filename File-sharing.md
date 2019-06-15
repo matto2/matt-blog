@@ -51,7 +51,9 @@ I moved to a different company shortly after new version was rolled out to custo
 Quotes from kiteworks users (after upgrade):
 
 > Kiteworks – is a fantastic app that provides secure data sharing for enterprise organizations.
+
 > Like any other user, I definitely appreciate a clean and intuitive interface, which makes the usage of the app as simple as one can be.
+
 > Efficient Secure User-Friendly Platform To Share Files. Kiteworks is an amazing app that allows you to transfer file efficient and in a very user friendly way. It has the capacity to support heavy file transfer with utmost ease.
 
 More reviews: https://www.gartner.com/reviews/review/view/574628
