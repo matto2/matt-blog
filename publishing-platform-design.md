@@ -40,3 +40,9 @@ I worked closely with the development team to build out the production versions 
 ### Outcome
 
 FastPencil was acquired by Courier Corporation in large part based on the updated and brandable publishing platform.
+
+
+<ul class="arrows">
+  <li><a href="{{ '/' | url }}">&#8592; Home</a></li>
+  <li><a href="{{ '/' }}">Next &#8594;</a></li>
+</ul>

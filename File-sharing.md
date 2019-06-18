@@ -60,6 +60,6 @@ More reviews: https://www.gartner.com/reviews/review/view/574628
 
 <ul class="arrows">
   <li><a href="{{ '/' | url }}">&#8592; Home</a></li>
-  <li><a href="{{ '/' | url }}">Next &#8594;</a></li>
+  <li><a href="{{ '/publishing-platform-design' }}">Next &#8594;</a></li>
 </ul>
 
