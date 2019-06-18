@@ -57,3 +57,9 @@ Quotes from kiteworks users (after upgrade):
 > Efficient Secure User-Friendly Platform To Share Files. Kiteworks is an amazing app that allows you to transfer file efficient and in a very user friendly way. It has the capacity to support heavy file transfer with utmost ease.
 
 More reviews: https://www.gartner.com/reviews/review/view/574628
+
+<ul class="arrows">
+  <li><a href="{{ '/' | url }}">&#8592; Home</a></li>
+  <li><a href="{{ '/' | url }}">Next &#8594;</a></li>
+</ul>
+
