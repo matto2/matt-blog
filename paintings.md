@@ -7,13 +7,13 @@ tags:
 templateClass: tmpl-post
 ---
 
-I used to paint a lot. Occasionally I move my brushes around still. Here's a few pieces I've done in the past - hope to add some new stuff here soon:
+I used to paint a lot. Here's some pieces I've done in the past - hope to add some new stuff here soon:
 
 <div class="grid">
 
   <a class="module" href="">
     <div>
-      <img src="/img/anini-beach_700px1.jpg">
+      <img src="/img/anini_beach.jpg" alt="Anini beach">
       <br>
       <p>Anini beach</p>
     </div>
@@ -21,11 +21,155 @@ I used to paint a lot. Occasionally I move my brushes around still. Here's a few
 
   <a class="module" href="">
     <div>
-      <img src="/img/Fullers_update-600x312.jpg">
+      <img src="/img/barrel_view.jpg" alt="The view of surfing in the barrel">
       <br>
-      <p>Big Sur</p>
+      <p>Barrel view</p>
     </div>
   </a>
+
+ <a class="module" href="">
+    <div>
+      <img src="/img/polihale.jpg" alt="Polihale">
+      <br>
+      <p>Polihale</p>
+    </div>
+  </a> 
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/tunnels_beach.jpg" alt="Tunnels beach">
+      <br>
+      <p>Tunnels beach</p>
+    </div>
+  </a> 
+
+  <a class="module" href="">
+    <div>
+      <img src="/img/beanhollow5_3560.jpg" alt="Cove at Bean Hollow">
+      <br>
+      <p>Cove at Bean Hollow</p>
+    </div>
+  </a>
+
+  <a class="module" href="">
+    <div>
+      <img src="/img/breaching_in_the_bay.jpg" alt="Breaching Whale">
+      <br>
+      <p>Breaching Whale</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/china_cove_rock.jpg" alt="Rock at Chine Cove">
+      <br>
+      <p>Rock at Chine Cove</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/dolphins.jpg" alt="Dolphins">
+      <br>
+      <p>Dolphins</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/fullers_3558.jpg" alt="Big Sur surf spot">
+      <br>
+      <p>Big Sur Surf Spot</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/getchells.jpg" alt="Getchells cove">
+      <br>
+      <p>Getchells Cove</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/its_3559.jpg" alt="Its Beach">
+      <br>
+      <p>Its Beach</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/itsbeach_cave_3571.jpg" alt="Its Beach Cove">
+      <br>
+      <p>Its Beach Cove</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/lane_moon_3568.jpg" alt="Moon over Steamer Lane">
+      <br>
+      <p>Moon over Steamer Lane</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/lemon_3578.jpg" alt="Lemon still life">
+      <br>
+      <p>Lemon still life</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/sweet_view.jpg" alt="Sweet view">
+      <br>
+      <p>Sweet view</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/the_lane_at_sunset.jpg" alt="The Lane at sunset">
+      <br>
+      <p>The Lane at sunset</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/off_the_lip_3.jpg" alt="Off the lip">
+      <br>
+      <p>Off the lip</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/pipe.jpg" alt="Pipeline">
+      <br>
+      <p>Pipeline</p>
+    </div>
+  </a>
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/sunset__jet_700px.jpg" alt="Sunset and jet">
+      <br>
+      <p>Sunset and jet</p>
+    </div>
+  </a> 
+
+   <a class="module" href="">
+    <div>
+      <img src="/img/waves_moon_3569.jpg" alt="Waves and moon">
+      <br>
+      <p>Waves and moon</p>
+    </div>
+  </a>    
 
 
 <br>

@@ -9,9 +9,13 @@ templateClass: tmpl-post
 
 <img class="about-me"  src="/img/me-in-circle_IMG_4888.png">
 
-<strong>Hi, I'm Matt! </strong><span class="emoji">👋 </span>I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). Check out my resume [here](/img/OLeary_resume_2019.pdf).
+<strong>Hi, I'm Matt! </strong><span class="emoji">👋 </span> My design process involves understanding customer and business goals via discussions and sketching out ideas with product owners. I then prototype, test and iterate based on feedback. I love discussing and testing with customers. Things I check for: is this useful, usable, understandable, accessible? I collaborate closely with Engineering and QA to build and test, then validate production versions with customers. Design isn't done until customers are getting their jobs done. Check out my [resume](/img/OLeary_resume_2019.pdf).
 
-My design process involves understanding customer and business goals via discussions and sketching out ideas with product owners. I then prototype, test and iterate based on feedback. I love discussing and testing with customers. Things I check for: is this useful, usable, understandable, accessible? I collaborate closely with Engineering and QA to build and test, then validate production versions with customers. Design isn't done until customers are getting their jobs done.
+
+I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). Also have produced a few [paintings](/paintings). Clearly I'm inspired by the California coast... Happy to chat anytime about design, surfing, or the best food trucks in Santa Cruz!
+
+
+
 
 <br>
 
