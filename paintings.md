@@ -7,8 +7,9 @@ tags:
 templateClass: tmpl-post
 ---
 
-I used to paint a lot. Here's some pieces I've done in the past - hope to add some new stuff here soon:
+I used to paint a lot. Here's some pieces I've done in the past - hope to add some new stuff here soon.
 
+<div class="gallery">
 <div class="grid">
 
   <a class="module" href="">
@@ -194,5 +195,56 @@ I used to paint a lot. Here's some pieces I've done in the past - hope to add so
   <div class="module">14</div>
   <div class="module">15</div> -->
 </div>
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../dist/simple-lightbox.js"></script>
+<script>
+	$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+</script>
 
+<ul class="arrows">
+  <li><a href="{{ '/about' | url }}">&#8592; Back</a></li>
+</ul>
