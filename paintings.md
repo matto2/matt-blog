@@ -7,7 +7,7 @@ tags:
 templateClass: tmpl-post
 ---
 
-I used to paint a lot. Here's some pieces I've done in the past - hope to add some new stuff here soon.
+I used to paint a lot. Here's a few pieces - hope to add some new stuff here soon.
 
 <div class="gallery">
 <div class="grid">
