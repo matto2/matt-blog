@@ -44,5 +44,5 @@ FastPencil was acquired by Courier Corporation in large part based on the update
 
 <ul class="arrows">
   <li><a href="{{ '/' | url }}">&#8592; Home</a></li>
-  <li><a href="{{ '/' }}">Next &#8594;</a></li>
+<!--  <li><a href="{{ '/' }}">Next &#8594;</a></li>-->
 </ul>
