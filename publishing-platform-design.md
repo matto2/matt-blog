@@ -7,6 +7,15 @@ tags:
 templateClass: tmpl-post
 ---
 
+
+<style>
+.project-page a {
+  color: var(--brightblue);
+  font-weight: 700;
+}
+</style>
+
+
 Role: Overall flow, UI design, Research, Usability studies
 
 ![fastpencil landing page](/img/fp-home2.png)
@@ -42,7 +51,10 @@ I worked closely with the development team to build out the production versions 
 FastPencil was acquired by Courier Corporation in large part based on the updated and brandable publishing platform.
 
 
+<br><br><br><br><br>
+
+
 <ul class="arrows">
-  <li><a href="{{ '/' | url }}">&#8592; Home</a></li>
-  <li><a href="{{ '/' }}">Next &#8594;</a></li>
+  <li class="arrows__back"><a href="{{ '/' | url }}">&#8592; Home</a></li>
+  <li class="arrows__next"><a href="{{ '/' }}">Next &#8594;</a></li>
 </ul>

@@ -63,7 +63,6 @@ p:last-child {
 img {
   width: 100%;
   /* max-width: 100%; */
-  /* 600px /16 */
 }
 
 p,
@@ -72,7 +71,6 @@ p,
 }
 
 a[href] {
-  /* color: var(--blue); */
   color: var(--brightblue);
 }
 
@@ -221,7 +219,6 @@ pre {
   font-size: 1.1em;
   /* 16px /16 */
   text-decoration: none;
-  /* color: var(--light-black); */
   display: flex;
   flex-grow: 1;
 }
@@ -267,14 +264,17 @@ pre {
   text-decoration: none;
 }
 
-.nav-item-active {
-  font-weight: 700;
+/* .nav-item-active { */
+  /* font-weight: 700; */
   /* text-decoration: underline; */
-}
+/* } */
 
 .nav-item-active a {
   color: var(--brightblue);
+  font-weight: 700;
+  text-decoration: none;
 }
+
 
 /* Posts list */
 .postlist {
@@ -325,6 +325,11 @@ pre {
   color: var(--light-black);
 }
 
+
+.arrows__next {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* Tags */
 .tag {

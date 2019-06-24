@@ -7,6 +7,14 @@ navtitle: About
 templateClass: tmpl-post
 ---
 
+<style>
+.about-page a {
+  color: var(--brightblue);
+  font-weight: 700;
+}
+</style>
+
+
 <img class="about-me"  src="/img/me-in-circle_IMG_4888.png">
 
 <strong>Hi, I'm Matt! </strong><span class="emoji">👋 </span>I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). Check out my resume [here](/img/OLeary_resume_2019.pdf).

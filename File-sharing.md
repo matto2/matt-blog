@@ -7,6 +7,17 @@ tags:
 templateClass: tmpl-post
 ---
 
+
+<style>
+.project-page a {
+  color: var(--brightblue);
+  font-weight: 700;
+}
+</style>
+
+
+
+
 Role: Overall flow, UI design, Research, Usability studies
 
 ![accellion file sharing app](/img/files2.jpg)
@@ -58,8 +69,11 @@ Quotes from kiteworks users (after upgrade):
 
 More reviews: https://www.gartner.com/reviews/review/view/574628
 
-<ul class="arrows">
-  <li><a href="{{ '/' | url }}">&#8592; Home</a></li>
-  <li><a href="{{ '/publishing-platform-design' }}">Next &#8594;</a></li>
-</ul>
 
+<br><br><br><br><br>
+
+
+<ul class="arrows">
+  <li class="arrows__back"><a href="{{ '/' | url }}">&#8592; Home</a></li>
+  <li class="arrows__next"><a href="{{ '/' }}">Next &#8594;</a></li>
+</ul>
