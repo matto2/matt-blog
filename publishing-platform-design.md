@@ -18,7 +18,7 @@ templateClass: tmpl-post
 
 Role: Overall flow, UI design, Research, Usability studies
 
-![fastpencil landing page](/img/fp-home2.png)
+![fastpencil landing page](/img/fp-home2.jpg)
 
 
 ### Background
