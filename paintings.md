@@ -7,6 +7,13 @@ tags:
 templateClass: tmpl-post
 ---
 
+<style>
+.painting-page a {
+  color: var(--brightblue);
+  font-weight: 700;
+}
+</style>
+
 I used to paint a lot. Here's a few pieces - hope to add some new stuff here soon.
 
 <div class="gallery">
