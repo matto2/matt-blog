@@ -198,7 +198,7 @@ I used to paint a lot. Here's a few pieces - hope to add some new stuff here soo
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript" src="../dist/simple-lightbox.js"></script>
+<script type="text/javascript" src="/javascript/simple-lightbox.js"></script>
 <script>
 	$(function(){
 		var $gallery = $('.gallery a').simpleLightbox();
