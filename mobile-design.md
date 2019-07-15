@@ -9,7 +9,7 @@ templateClass: tmpl-post
 
 <style>
 .project-page a {
-  color: var(--brightblue);
+  color: var(--primary-color);
   font-weight: 700;
 }
 </style>
@@ -30,5 +30,5 @@ Here's the (wip) [clickable prototype](https://xd.adobe.com/view/70d31ed7-f7f6-4
 
 <ul class="arrows">
   <li class="arrows__back"><a href="{{ '/' | url }}">&#8592; Home</a></li>
-  <li class="arrows__next"><a href="{{ '/publishing-platform-design' }}">Next &#8594;</a></li>
+ <!-- <li class="arrows__next"><a href="{{ '/publishing-platform-design' }}">Next &#8594;</a></li> -->
 </ul>

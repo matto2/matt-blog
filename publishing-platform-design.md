@@ -10,7 +10,7 @@ templateClass: tmpl-post
 
 <style>
 .project-page a {
-  color: var(--brightblue);
+  color: var(--primary-color);
   font-weight: 700;
 }
 </style>
@@ -56,5 +56,5 @@ FastPencil was acquired by Courier Corporation in large part based on the update
 
 <ul class="arrows">
   <li class="arrows__back"><a href="{{ '/' | url }}">&#8592; Home</a></li>
-  <!-- <li class="arrows__next"><a href="{{ '/' }}">Next &#8594;</a></li> -->
+  <li class="arrows__next"><a href="{{ '/mobile-design' }}">Next &#8594;</a></li>
 </ul>

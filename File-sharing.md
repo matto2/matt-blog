@@ -9,7 +9,7 @@ templateClass: tmpl-post
 
 <style>
 .project-page a {
-  color: var(--brightblue);
+  color: var(--primary-color);
   font-weight: 700;
 }
 </style>
