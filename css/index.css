@@ -579,7 +579,7 @@ strong {
 .theme-switch-wrap {
   display: flex;
   align-items: center;
-  margin-left: 0px;
+  margin-top: 28px;
   font-size: 1rem;
 }
 
