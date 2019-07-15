@@ -583,20 +583,21 @@ strong {
   font-size: 1rem;
 }
 
-/*
+
 .theme-switch {
   display: inline-block;
   height: 34px;
   position: relative;
   width: 60px;
 }
-*/
+
+/*
 .theme-switch {
   position: relative;
   height: 34px;
   width: 60px;
 }
-
+*/
 .theme-switch input {
   display:none;
 }
