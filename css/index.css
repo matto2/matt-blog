@@ -188,7 +188,7 @@ footer p {
   color: var(--primary-text2);
   font-size: 90%;
 }
-.footer-wrapper {
+.footer-wrap {
   width: 100%;
 }
 
@@ -576,7 +576,7 @@ strong {
   font-weight: 700;
 }
 
-.theme-switch-wrapper {
+.theme-switch-wrap {
   display: flex;
   align-items: center;
 
