@@ -127,9 +127,7 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
-</script>
 
-<script>
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
 if (currentTheme) {
@@ -139,9 +137,6 @@ if (currentTheme) {
         toggleSwitch.checked = true;
     }
 }
-</script>
-
-<script>
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
