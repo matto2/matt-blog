@@ -3,7 +3,6 @@ layout: layouts/post.njk
 title: File sharing web app
 tags:
   - work
-
 templateClass: tmpl-post
 ---
 
