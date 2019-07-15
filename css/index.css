@@ -579,11 +579,8 @@ strong {
 .theme-switch-wrap {
   display: flex;
   align-items: center;
-
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
+  margin-left: 10px;
+  font-size: 1rem;
 }
 
 /*
