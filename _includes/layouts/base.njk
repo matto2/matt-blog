@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+
+<link rel="icon" sizes="192x192" href="/favicon-192x192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="msapplication-square150x150logo" content="/ms-icon-150x150.png">
+<meta name="msapplication-config" content="/browserconfig.xml">
+
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <script src="https://kit.fontawesome.com/5d37bf0850.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
@@ -39,6 +46,8 @@
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+
+
 
 </head>
 
