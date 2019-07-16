@@ -20,7 +20,7 @@ Role: Overall flow, UI design
 
 ### Background
 
-A large number of Syncplicity customers access their enterprise content via the native mobile app. The Syncplicity mobile apps are in transition to matching the branding of Axway and the other Syncplicity clients like desktop and web. This design is an in-progress concept showing new the mobile branding — Android phone in this case. There are additional changes intended to increase usability (moving primary actions to the bottom for example) and decrease training while not making such dramatic changes as to throw off exisiting users.
+A large number of Syncplicity customers access their enterprise content via the native mobile app. The Syncplicity mobile apps are in transition to matching the branding of Axway and the other Syncplicity clients like desktop and web. This design is an in-progress concept showing new mobile branding (Android phone in this case). There are additional changes intended to increase usability (moving primary actions to the bottom for example) and decrease training while not making such dramatic changes as to throw off exisiting users.
 
 Here's the (wip) [clickable prototype](https://xd.adobe.com/view/70d31ed7-f7f6-4f54-46b9-65d2a9e0b9d9-06e2/?fullscreen)
 
