@@ -640,3 +640,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.ico {
+  width: 24px;
+}

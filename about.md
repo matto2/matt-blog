@@ -28,13 +28,8 @@ I have a varied background in design–from founding a surf magazine to running 
 <br>
 
 CONNECT WITH ME
+<p><span class="jam jam-envelope"></span>&nbsp;<a href="mailto: mattosurf@gmail.com">mattosurf@gmail.com</a>
 
+<span class="jam jam-linkedin"></span>&nbsp;<a href="https://www.linkedin.com/in/olearystudios">/in/olearystudios</a>
 
-
-
-
-<p><i class="social-media-icon fas fa-envelope"></i><a href="mailto: mattosurf@gmail.com">mattosurf@gmail.com</a></p>
-
-<p><i class="social-media-icon fab fa-linkedin"></i><a href="https://www.linkedin.com/in/olearystudios">/in/olearystudios</a></p>
-
-<p><i class="social-media-icon fab fa-twitter"></i><a href="https://twitter.com/mattosurf">@mattosurf</a></p>
+<span class="jam jam-twitter"></span>&nbsp;<a href="https://twitter.com/mattosurf">@mattosurf</a>
