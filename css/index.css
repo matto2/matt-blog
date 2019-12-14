@@ -28,16 +28,16 @@
 [data-theme="dark"] {
   --red: #C5004A;
   --darkred: #7F0036;
-  --bg-color: #2e0040;
+  --bg-color: #2e122e;
   --gray: #C0C0C0;
-  --primary-text2: #faf9eb;
+  --primary-text2: #e0e0dc;
   --navy: #17050F;
   --blue: #082840;
-  --header-bkg: #7a07b3;
+  --header-bkg: #652280;
   --white: #fff;
   --turquoise: #05BECE;
   --primary-color: hotpink;
-  --primary-text: #faf9eb;
+  --primary-text: #eeede6;
 }
 
 
