@@ -22,6 +22,8 @@ templateClass: tmpl-post
 
 I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). I've also made a few [paintings](/paintings). I'm inspired by the California coast and can often be found [playing](https://www.instagram.com/p/BvaSWjElqddoWuOgQSSELtx3m1GH4jT7947vVk0/?igshid=8ioxj1q2vzup) in the waves or with my family on the beach. Happy to chat anytime about design, art, surfing, or the best food trucks in Santa Cruz!
 
+Update: I added a page to share random stuff I'm [learning](/fun) (APIs at the moment).
+
 
 
 
