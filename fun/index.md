@@ -22,10 +22,4 @@ I'm going to put a few things in here - stuff I'm learning (aka trying to figure
 ### {{ github.stargazers }} GitHub Stars
 
 
-<script>
-{
-  var d = new Date();
-  var n = d.toDateString();
-  document.getElementById("date").innerHTML = n;
-}
-</script>
+
