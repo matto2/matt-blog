@@ -16,7 +16,10 @@ templateClass: tmpl-post
 
 Thanks for sticking with me this far! As a reward I will now be sharing extremely amature home videos from my youth - yes, I'm serious 😊 - Some of these actually started out as 3.5" super 8 film reels that I converted to VHS a very long time ago (that's when the cheesy musak was added by the transfer service).
 
-[• A young Superman](/img/superman-home-movie.m4v)
+[• A young Superman](/img/superman.mp4)
+[• Aquaboy kills a shark!](/img/aquaboy.mp4)
+[• Old-surf-clips](/img/sm-barrel-and-lane.mp4)
+
 <!-- Featuring magic in the dark, young Superman, and Aquaboy killing a shark! -->
 
 <!-- <video width="800" controls>
