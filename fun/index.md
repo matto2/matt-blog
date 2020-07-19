@@ -16,7 +16,7 @@ templateClass: tmpl-post
 
 Thanks for sticking with me this far! As a reward I will now be sharing un-edited home videos from my youth - yes, I'm serious 😊 - Some of these actually started out as 3.5" super 8 film reels that I converted to VHS a very long time ago.
 
-[Old home movies and surf](/img/home-movies-and-surf_2.mp4)
+<!-- [Old home movies and surf](/img/home-movies-and-surf_2.mp4) -->
 Featuring magic in the dark, young Superman, and Aquaboy killing a shark!
 
 <!-- <video width="800" controls>
