@@ -16,7 +16,7 @@ templateClass: tmpl-post
 
 # Fun Stuff!
 
-Thanks for sticking with me this far! Here's where I'm sharing extremely amature home videos from my youth 😊 - Some of these started out as 3.5" super-8 reels that I converted to VHS a very long time ago (that's when the cheesy musak was added by the transfer service).
+Thanks for sticking with me this far! Here's where I'm sharing extremely amature home videos from my youth 😊 - Some of these started out as 3.5" super-8 reels that I converted to VHS a very long time ago (that's when musak was added by the transfer service).
 
 [• A young Superman... ~14?](/img/superman.mp4)
 [• Aquaboy kills a shark!](/img/aquaboy.mp4)
