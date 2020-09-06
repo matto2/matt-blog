@@ -30,8 +30,8 @@ Update: I added a page to share some [fun random things](/fun).
 <br>
 
 CONNECT WITH ME
-<p><span class="jam jam-envelope"></span>&nbsp;<a href="mailto: mattosurf@gmail.com">mattosurf@gmail.com</a>
+<p><span class="jam jam-envelope"></span>&nbsp;<a href="mailto: {{ settings.email }}">{{ settings.email }}</a>
 
-<span class="jam jam-linkedin"></span>&nbsp;<a href="https://www.linkedin.com/in/olearystudios">/in/olearystudios</a>
+<span class="jam jam-linkedin"></span>&nbsp;<a href="{{ settings.linkedin }}">/in/olearystudios</a>
 
-<span class="jam jam-twitter"></span>&nbsp;<a href="https://twitter.com/mattosurf">@mattosurf</a>
+<!-- <span class="jam jam-twitter"></span>&nbsp;<a href="https://twitter.com/mattosurf">@mattosurf</a> -->
