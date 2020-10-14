@@ -22,9 +22,11 @@ templateClass: tmpl-post
 
 I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). I've also made a few [paintings](/paintings). I'm inspired by the California coast and can often be found [playing](/img/me-surfing_2019.mp4) in the waves or with my family on the beach. Happy to chat anytime about design, art, surfing, or the best food trucks in Santa Cruz!
 
-WIP - [A new site for my Mom's music](https://minnieoleary.com/)
+**WIP - [A new site for my Mom's music](https://minnieoleary.com/)**
 
-Update: I added a page to share some [fun random things](/fun).
+I'm also a mentor at [Rookieup](https://www.rookieup.com/) and [Interaction Design Foundation's Get A UX Job Bootcamp](https://www.interaction-design.org/bootcamps/get-a-new-job-in-ux-design?ep=rookieup)
+
+Update: I added a page to share some [~~fun random~~ self-indulgent things](/fun).
 
 
 
