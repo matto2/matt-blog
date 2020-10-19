@@ -211,10 +211,10 @@ main :first-child {
   color: var(--primary-text2)
 }
 
-.head-wrapper a:active {
+/* .head-wrapper a:active {
   font-weight: bold;
   background color: var(--bkg-color)
-}
+} */
 
 header {
   /* border-bottom: 1px dashed var(--bg-color); */
@@ -360,19 +360,19 @@ pre {
   /* text-decoration: underline; */
 /* } */
 
-.nav-item-active a:active {
+/* .nav-item-active a:active {
   color: var(--primary-color);
   font-weight: 700;
   text-decoration: none;
   background-color: var(--bkg-color)
-}
+} */
 
-.nav-item-active a {
+/* .nav-item-active a {
   color: var(--primary-color);
   font-weight: 700;
   text-decoration: none;
   background-color: gold;
-}
+} */
 
 
 /* Posts list */
