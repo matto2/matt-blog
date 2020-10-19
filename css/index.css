@@ -21,8 +21,9 @@
   --header-bkg: #fff;
   --white: #fff;
   --turquoise: #05BECE;
-  --primary-color :dodgerblue;
+  --primary-color :#c22ffd;
   --primary-text: #555555;
+  --bkg-color: yellow;
 }
 
 [data-theme="dark"] {
@@ -33,11 +34,12 @@
   --primary-text2: #e0e0dc;
   --navy: #17050F;
   --blue: #082840;
-  --header-bkg: #4c204c;
+  --header-bkg: #c22ffd;
   --white: #fff;
   --turquoise: #05BECE;
-  --primary-color: hotpink;
+  --primary-color: #c22ffd;
   --primary-text: #eeede6;
+  --bkg-color: yellow;
 }
 
 
@@ -96,13 +98,13 @@ header {
     /* border-bottom: 1px dashed var(--bg-color); */
     max-width: 800px;
     margin: 0 auto;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 html, body {
     /* max-width: 800px; */
     padding: 0;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     color: var(--primary-text2);
     background-color: var(--bg-color);
     height: 100%;
@@ -118,7 +120,7 @@ body {
   /* max-width: 800px; */
   padding: 0;
   margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   color: var(--primary-text2);
   background-color: var(--bg-color);
   
@@ -170,7 +172,7 @@ main {
   max-width: 800px;
   margin: 0 auto;
   /* font-family: sans-serif; */
-  font-family:'Source Sans Pro', sans-serif;
+  font-family:-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 footer {
@@ -209,11 +211,16 @@ main :first-child {
   color: var(--primary-text2)
 }
 
+.head-wrapper a:active {
+  font-weight: bold;
+  background color: var(--bkg-color)
+}
+
 header {
   /* border-bottom: 1px dashed var(--bg-color); */
   max-width: 800px;
   margin: 0 auto;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 header:after {
@@ -353,10 +360,18 @@ pre {
   /* text-decoration: underline; */
 /* } */
 
+.nav-item-active a:active {
+  color: var(--primary-color);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: var(--bkg-color)
+}
+
 .nav-item-active a {
   color: var(--primary-color);
   font-weight: 700;
   text-decoration: none;
+  background-color: gold;
 }
 
 
@@ -527,7 +542,12 @@ h2,
 h3 {
   font-weight: 700;
   margin: 1.5rem 0 0 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+h1 {
+  font-size: xxx-large;
+  margin-bottom: 3rem;
 }
 
 
@@ -631,7 +651,7 @@ strong {
 }
 
 input:checked + .slider {
-  background-color: hotpink;
+  background-color: #c22ffd;
 }
 
 input:checked + .slider:before {
@@ -649,3 +669,21 @@ input:checked + .slider:before {
 .ico {
   width: 24px;
 }
+
+/* 
+.index-page a:active {
+  color: var(--primary-color);
+  font-weight: 700;
+  background-color: yellow;
+}
+
+.about-page a:active {
+  color: var(--primary-color);
+  font-weight: 700;
+  background-color: yellow;
+}
+
+.head-wrapper a:active {
+  color: var(--primary-text2);
+  background-color: yellow;
+} */
