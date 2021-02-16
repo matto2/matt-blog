@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 👋 I’m Matt!
+title: Hello, I’m Matt!
 tags:
   - nav
 navtitle: About
