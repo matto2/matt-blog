@@ -12,7 +12,7 @@ templateClass: tmpl-post
 .index-page a {
   color: var(--primary-color);
   font-weight: 700;
-  background-color: white;
+  /* background-color: white; */
 }
 </style>
 
