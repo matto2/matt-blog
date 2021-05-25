@@ -34,20 +34,6 @@
   gtag('config', 'UA-532841-1');
 </script>
 
-<!-- Hotjar Tracking Code for https://olearystudios.com/ 
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1385141,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
--->
-
-
 </head>
 
 <body>
@@ -68,6 +54,7 @@
 
     <br>
 
+
       <li class="nav-item index-page project-page"><a href="/">Home</a></li>
       <li class="nav-item about-page painting-page"><a href="/about/">About</a></li>
 
@@ -81,15 +68,7 @@
   </header>
 </article>
 
-<br>
-
-  <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
-
-    {{ content | safe }}
-
- <br>
- <br>   
- <div class="theme-switch-wrap">
+<div class="nav-toggle">
      🌞&nbsp;
 
     <label class="theme-switch" for="checkbox">
@@ -98,6 +77,25 @@
   </label>
   🌛
 </div>
+
+<br>
+
+  <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
+
+    {{ content | safe }}
+
+ <br>
+ <br>   
+ <!-- <div class="theme-switch-wrap">
+     🌞&nbsp;
+
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+  🌛
+</div> -->
+
   </main>
 
 <div class="push"></div>

@@ -27,7 +27,7 @@ I have a varied background in design–from founding a surf magazine to running 
 
 I'm also a mentor at [Rookieup](https://www.rookieup.com/) and [Interaction Design Foundation's Get A UX Job Bootcamp](https://www.interaction-design.org/bootcamps/get-a-new-job-in-ux-design?ep=rookieup)
 
-Update: I added a page to share some [~~fun random~~ self-indulgent things](/fun).
+<!-- Update: I added a page to share some [~~fun random~~ self-indulgent things](/fun). -->
 
 
 

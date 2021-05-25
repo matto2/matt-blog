@@ -688,3 +688,18 @@ input:checked + .slider:before {
   color: var(--primary-text2);
   background-color: yellow;
 } */
+
+.nav-toggle {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.up {
+
+  margin-top: -4.2rem;
+  
+}
