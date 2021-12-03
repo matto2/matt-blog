@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<h1>{{ title }}</h1>
+
+{{ content | safe }}
+
+
+
+<style>
+  .arrows {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0;
+  }
+  .arrows li {
+    list-style-type: none;
+  }
+
+</style>
+
+
+<!-- <ul class="arrows">
+  <li><a href="{{ '/' | url }}">← Home</a></li>
+  <li><a href="{{ '/' | url }}">Next &#8594;</a></li>
+</ul> -->
+

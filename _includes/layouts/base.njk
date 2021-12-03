@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ renderData.title or title or metadata.title }}</title>
+  <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+<!--<script> src="https://kit.fontawesome.com/5d37bf0850.js"></script>
+<<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+<script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.12.1/simplelightbox.min.css'>
+{# <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'> #}
+
+  <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+  <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+  <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-532841-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-532841-1');
+</script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+
+
+<article class="head-wrapper">
+  <header>
+    <ul class="nav">
+      <li class="logo">
+        <a class="logo" href="{{ '/' | url }}">{{ metadata.title }}
+          <!-- <br> -->
+          <!-- User Experience Designer -->
+        </a>
+      </li>
+
+    <br>
+
+
+      <li class="nav-item index-page project-page"><a href="/">Home</a></li>
+      <li class="nav-item about-page painting-page"><a href="/about/">About</a></li>
+
+
+        <!-- {%- for nav in collections.nav | reverse -%}
+        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% elif nav.url == '/' %} nav-item-active.work{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+        {%- endfor -%} -->
+
+        
+      </ul>
+  </header>
+</article>
+
+<div class="nav-toggle">
+     🌞&nbsp;
+
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+  🌛
+</div>
+
+<br>
+
+  <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
+
+    {{ content | safe }}
+
+ <br>
+ <br>   
+ <!-- <div class="theme-switch-wrap">
+     🌞&nbsp;
+
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+  🌛
+</div> -->
+
+  </main>
+
+<div class="push"></div>
+
+
+
+  <article class="footer-wrap">
+    <footer>
+    <br>
+         
+<p>
+   &copy
+   <script>
+      document.write(new Date().getFullYear());
+   </script> 
+Matt O'Leary </p>
+
+    </footer>
+  </article>
+
+</div><!-- .wrapper-->
+  <!-- Current page: {{ page.url | url }} -->
+
+
+
+<script>
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+    }    
+}
+</script>
+
+</body>
+
+</html>
