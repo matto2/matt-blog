@@ -46,4 +46,12 @@ CONNECT WITH ME
 
 <span class="jam jam-linkedin"></span>&nbsp;<a href="{{ settings.linkedin }}">/in/matt-oleary</a>
 
+</br>
+</br>
+</br>
+
+<ul class="arrows">
+  <li class="arrows__back"><a href="{{ '/' | url }}">&#8592; Home</a></li>
+</ul>
+
 <!-- <span class="jam jam-twitter"></span>&nbsp;<a href="https://twitter.com/mattosurf">@mattosurf</a> -->
