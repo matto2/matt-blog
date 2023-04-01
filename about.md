@@ -18,12 +18,21 @@ templateClass: tmpl-post
 
 <img class="about-me"  src="/img/me-in-circle_purple.png">
 
-I'm a product design generalist focused on great experiences and outcomes for both customers and the business. My process involves understanding customer and business goals via discussions and sketching out ideas with product owners. I then prototype, test and iterate based on feedback. I love discussing and testing with customers. Things I check for: is this useful, usable, understandable, accessible? I collaborate closely with Engineering and QA to build and test, then validate production versions with customers. Design isn't done until customers are getting their jobs done. Check out my [resume](/img/OLeary_resume_2020.pdf).
+I am a lifelong artist, born in San Francisco and raised in Santa Cruz. I usually paint with acrylics on board or canvas. Surfing and the coast have been favorite subjects of my art ever since I was young. I draw inspiration from trips to Northern California, Big Sur, Hawaii, and beyond. Great art, excellent design, and publishing are all passions of mine. 
 
+I co-founded The Juice, a regional surfing magazine, and have designed a few book covers. Currently, I work as a Digital Product Designer. I can often be found in Santa Cruz surfing or hiking/biking around town, up the coast, or in the mountains. Here's me [playing](/img/me-surfing_2019.mp4) in the waves.
 
-I have a varied background in design–from founding a surf magazine to running production at creative agencies. Recently I created keeptheapostrophe.com with my father. I occasionally write about UX and other subjects on [Medium](https://medium.com/@mattosurf). I've also made a few [paintings](/paintings). I'm inspired by the California coast and can often be found [playing](/img/me-surfing_2019.mp4) in the waves or with my family on the beach. Happy to chat anytime about design, art, surfing, or the best food trucks in Santa Cruz!
+## Links
 
-**WIP - [A new site for my Mom's music](https://minnieoleary.com/)**
+[minnieoleary.com](https://minnieoleary.com/) A site I made to keep my Mom's music available to hear and buy the sheet music - especially *Songs of Self Esteem*
+
+[keeptheapostrophe.com](https://keeptheapostrophe.com/) A site I made with my Dad to make some noise and help fix the issues folks with apostrophes (and anything else "non-standard") in their names face when using the web, traveling, etc.
+
+[Medium](https://medium.com/@mattosurf) Very occasional writings about surfing, design, etc.
+
+[The Juice - Northern California's Surf Magazine](https://norcaljuice.wiki) Work-in-progress. Plan is to make all the old back issues from the surf mag I created with Eric Mitchell available for sale.
+
+[mattoleary.design](https://mattoleary.design) My Digital Product Design portfolio site
 
 <!-- Update: I added a page to share some [~~fun random~~ self-indulgent things](/fun). -->
 
@@ -33,8 +42,8 @@ I have a varied background in design–from founding a surf magazine to running 
 <br>
 
 CONNECT WITH ME
-<p><span class="jam jam-envelope"></span>&nbsp;<a href="mailto: {{ settings.email }}">{{ settings.email }}</a>
+<p><span class="jam jam-envelope"></span>&nbsp;<a href="mailto:{{ settings.email }}">{{ settings.email }}</a>
 
-<span class="jam jam-linkedin"></span>&nbsp;<a href="{{ settings.linkedin }}">/in/olearystudios</a>
+<span class="jam jam-linkedin"></span>&nbsp;<a href="{{ settings.linkedin }}">/in/matt-oleary</a>
 
 <!-- <span class="jam jam-twitter"></span>&nbsp;<a href="https://twitter.com/mattosurf">@mattosurf</a> -->

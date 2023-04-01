@@ -703,3 +703,33 @@ input:checked + .slider:before {
   margin-top: -4.2rem;
   
 }
+
+.sl-wrapper .sl-close, .sl-wrapper .sl-counter {
+  top: 30px;
+  display: none;
+  color: var(--primary-color);;
+  position: fixed;
+}
+
+.sl-wrapper .sl-navigation button {
+  position: fixed;
+  top: 50%;
+  margin-top: -22px;
+  width: 22px;
+  text-align: center;
+  display: block;
+  z-index: 1060;
+  color: var(--primary-color);;
+}
+
+.sl-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #000;
+  opacity: .95;
+  display: none;
+  z-index: 1050;
+}
